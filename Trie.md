@@ -2,10 +2,10 @@ Trie Data structure in kotlin
 
 Node used in Trie
 
-```kotlin
+```kotlin:Node.kt
 data class Node(
-    val children: MutableMap<Char, Node> = mutableMapOf<Char, Node>(),
-    var isWord: Boolean = false
+    private val children: MutableMap<Char, Node> = mutableMapOf<Char, Node>(),
+    private var isWord: Boolean = false
 ){
     fun addChild(key: Char, node: Node){
         children[key] = node
@@ -20,11 +20,23 @@ data class Node(
     }
     
     fun getChildrenSize() = children.size
+    
+    fun getChildren() = children.values
+    
+    fun setAsWord(){
+        isWord = true
+    }
+    
+   	fun removeAsWord(){
+        isWord = false
+    }
+    
+    fun isWord() = isWord
 }
 ```
 
 Trie class
-```kotlin
+```kotlin:Trie.kt
 class Trie{
     private val root: Node = Node()
     
@@ -39,7 +51,7 @@ class Trie{
             currentWord = child
         }
         
-        currentWord.isWord = true
+        currentWord.setAsWord()
     }
     
     fun insert(word: String){
@@ -48,7 +60,7 @@ class Trie{
     
     private fun insert(word: String, currentWord: Node, index: Int){
         if(index == word.length){
-            currentWord.isWord = true
+            currentWord.setAsWord()
             return 
         }
         
@@ -73,7 +85,7 @@ class Trie{
             currentWord = child
         }
         
-        return currentWord.isWord
+        return currentWord.isWord()
     }
     
     fun search(word: String): Boolean{
@@ -86,7 +98,7 @@ class Trie{
     
     private fun search(word: String, currentWord: Node, index: Int, prefixSearch: Boolean): Boolean{
         if(index == word.length){
-            return if(prefixSearch) true else currentWord.isWord
+            return if(prefixSearch) true else currentWord.isWord()
         }
         val child = currentWord.getChild(word[index])
         if(child == null){
@@ -98,14 +110,14 @@ class Trie{
     
     fun searchWithWildCard(word: String, currentWord: Node, index: Int, wildCard: Char): Boolean{
         if(index == word.length){
-            return currentWord.isWord
+            return currentWord.isWord()
         }
         
         val ch = word[index]
     
         if(ch == wildCard){
-            for((key, child) in currentWord.children){
-                if(search(word, child, index + 1)){
+            for(child in currentWord.getChildren()){
+                if(search(word, child, index + 1, false)){
                     return true
                 }
             }
@@ -118,7 +130,7 @@ class Trie{
             return false
         }
 
-        return search(word, child, index + 1)
+        return search(word, child, index + 1, false)
         
     }
     
@@ -129,11 +141,11 @@ class Trie{
     private fun delete(word: String, currentWord: Node, index: Int): Boolean{
         if(index == word.length){
            
-            if(!currentWord.isWord){
+            if(!currentWord.isWord()){
                 return false
             }
             
-            currentWord.isWord = false
+            currentWord.removeAsWord()
             return currentWord.getChildrenSize() == 0
         }
         
@@ -145,6 +157,7 @@ class Trie{
         val shouldDeleteWord = delete(word, child, index + 1)
         
         if(shouldDeleteWord){
+
             currentWord.removeChild(word[index])
             
             return currentWord.getChildrenSize() == 0
@@ -160,7 +173,7 @@ class Trie{
     }
     
     private fun preOrder(node: Node, str: String, list: MutableList<String>){
-        if(node.isWord){
+        if(node.isWord()){
             list.add(str)
         }
         var cStr = str
@@ -177,7 +190,7 @@ class Trie{
 ```
 
 Try it out!
-```kotlin
+```kotlin:Main.kt
 fun main() {
     val str = "lexicographic sorting of a set of keys can be accomplished with " +
                 "a simple trie based algorithm we insert all keys in a trie output " +
@@ -188,9 +201,12 @@ fun main() {
     
     val trie = Trie()
     
+
     for(word in words){
         trie.insert(word)
     }
+    
+    trie.delete("lexicographically")
     
     val sorted = trie.getLexicographicSortedWords()
     println(sorted.joinToString("\n"))
