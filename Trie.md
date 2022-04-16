@@ -77,19 +77,23 @@ class Trie{
     }
     
     fun search(word: String): Boolean{
-        return search(word, root, 0)
+        return search(word, root, 0, false)
     }
     
-    private fun search(word: String, currentWord: Node, index: Int): Boolean{
+    fun startsWith(prefix: String): Boolean{
+        return search(prefix, root, 0, true)
+    }
+    
+    private fun search(word: String, currentWord: Node, index: Int, prefixSearch: Boolean): Boolean{
         if(index == word.length){
-            return currentWord.isWord
+            return if(prefixSearch) true else currentWord.isWord
         }
         val child = currentWord.getChild(word[index])
         if(child == null){
             return false
         }
         
-        return search(word, child, index + 1)
+        return search(word, child, index + 1, prefixSearch)
     }
     
     fun delete(word: String){
