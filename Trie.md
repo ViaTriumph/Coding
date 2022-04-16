@@ -96,6 +96,32 @@ class Trie{
         return search(word, child, index + 1, prefixSearch)
     }
     
+    fun searchWithWildCard(word: String, currentWord: Node, index: Int, wildCard: Char): Boolean{
+        if(index == word.length){
+            return currentWord.isWord
+        }
+        
+        val ch = word[index]
+    
+        if(ch == wildCard){
+            for((key, child) in currentWord.children){
+                if(search(word, child, index + 1)){
+                    return true
+                }
+            }
+            return false
+        }
+        
+        val child = currentWord.getChild(ch)
+        
+        if(child == null){
+            return false
+        }
+
+        return search(word, child, index + 1)
+        
+    }
+    
     fun delete(word: String){
         delete(word, root, 0)
     }
