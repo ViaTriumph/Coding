@@ -1,5 +1,4 @@
-## Arrays
-
+# Arrays
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
@@ -16,14 +15,13 @@
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/product-of-array-except-self.md)     | O(n)    | O(1)    |
 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/valid-sudoku.md)     | O(n)    | O(1)    |
 
-## Binary Search
-
+# Binary Search
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Binary Search](https://leetcode.com/problems/binary-search/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/binary_search.md)     | O(log(n))    | O(1)    |
 
-## Bit manipulation
+# Bit manipulation
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
@@ -34,60 +32,60 @@
 | [Single Number](https://leetcode.com/problems/single-number/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Bit%20manipulation/single-number.md)     | O(n)    | O(1)    |
 
 
-## Dynamic Programming
+# Dynamic Programming
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/climbing-stairs.md)     | O(n)    | O(n)    |
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/min-cost-climbing-stairs.md)     | O(n)    | O(n)    |
 
-## Greedy
+# Greedy
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Greedy/maximum-subarray.md)     | O(n)    | O(1)    |
 
-## Heap & Priority Queue
+# Heap & Priority Queue
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Heap%20%26%20Priority%20Queue/kth-largest-element-in-a-stream.md)     | O(nlog(n))    | O(n)    |
 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Heap%20%26%20Priority%20Queue/last-stone-weigh.md)     | O(nlog(n))    | O(n)    |
 
-## Intervals
+# Intervals
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Intervals/meeting-rooms.md)     | O(nlog(n))    | O(n)    |
 
-## Linked List
+# Linked List
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Linked%20list/merge_two_sorted_lists.md)     | O(n)    | O(n)    |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Linked%20list/reverse_linked_list.md)     | O(n)    | O(n)    |
 
-## Maths & Geometry
+# Maths & Geometry
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Happy Number](https://leetcode.com/problems/happy-number/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Maths%20%26%20Geometry/happy-number.md)     | O(n)    | O(1)    |
 | [Plus One](https://leetcode.com/problems/plus-one/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Maths%20%26%20Geometry/plus-on.md)     | O(n)    | O(1)    |
 
-## Sliding Window
+# Sliding Window
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Sliding%20window/best_time_to_buy_and_sell_stock.md)     | O(n)    | O(n)    |
 
-## Stack
+# Stack
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
 | [Min Stack](https://leetcode.com/problems/min-stack)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Stack/min_stack.md)     | O(n)    | O(n)    |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Stack/valid_parantheses.md)     | O(len(s))    | O(len(s))    |
 
-## Trees
+# Trees
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
@@ -99,7 +97,7 @@
 | [Same Tree](https://leetcode.com/problems/same-tree/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Trees/same-tree.md)     | O(n)    | O(n)    |
 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Trees/subtree-of-another-tree.md)     | O(n)    | O(n)    |
 
-## Two pointers
+# Two pointers
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
