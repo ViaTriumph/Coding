@@ -11,5 +11,5 @@ fun isAnagram(s: String, t: String): Boolean {
             if(htable[i]!=0) return false
         }
         return true
-    }
+}
 ```
