@@ -19,7 +19,13 @@
 ### Easy
 | Question | Solution | Time complexity | Space complexity |
 | ---      |   ---    |      ---        |       ---        |
-| [Binary Search](https://leetcode.com/problems/binary-search/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/binary_search.md)     | O(log(n))    | O(1)    |
+| [Binary Search](https://leetcode.com/problems/binary-search/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/binary_search.md)     | O(n)    | O(1)    |
+### Medium
+| Question | Solution | Time complexity | Space complexity |
+| ---      |   ---    |      ---        |       ---        |
+| [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/two-sum-ii-input-array-is-sorted.md)     | O(log(n))    | O(1)    |
+| [3Sum](https://leetcode.com/problems/3sum/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/3sum.md)     | O(nlog(n))    | O(n)    |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Binary%20search/container-with-most-water.md)     | O(n)    | O(1)    |
 
 # Bit manipulation
 ### Easy
