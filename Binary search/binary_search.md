@@ -21,9 +21,9 @@ fun search(nums: IntArray, target: Int): Int {
     
         
         return -1
-    }
+}
     
-    fun lower_bound(nums: IntArray, target: Int): Int{
+fun lower_bound(nums: IntArray, target: Int): Int{
         var i = -1
         var j = nums.size
         var mid = 0
@@ -35,9 +35,9 @@ fun search(nums: IntArray, target: Int): Int {
         }
         
         return j
-    }
+}
     
-    fun upper_bound(nums: IntArray, target: Int): Int{
+fun upper_bound(nums: IntArray, target: Int): Int{
         var i = -1
         var j = nums.size
         var mid = 0
@@ -49,5 +49,5 @@ fun search(nums: IntArray, target: Int): Int {
         }
         
         return i+1
-    }
+}
 ```
