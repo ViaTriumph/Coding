@@ -1,4 +1,4 @@
-Question: [https://leetcode.com/problems/min-stack/submissions/](https://leetcode.com/problems/min-stack/submissions/)
+Question: [https://leetcode.com/problems/min-stack](https://leetcode.com/problems/min-stack)
 ```kotlin
 class MinStack() {
     
