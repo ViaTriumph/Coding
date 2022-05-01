@@ -20,7 +20,7 @@ fun isValid(s: String): Boolean {
         if(isValid == true && stack.size != 0){
             isValid = false
         }
-        
+
         return isValid
-    }
+}
 ```
