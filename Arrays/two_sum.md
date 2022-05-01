@@ -5,9 +5,9 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
         for(i in 0..nums.size-1){
             tNums.add(Pair(nums[i],i))
         }
-        
+
         val sNums = tNums.sortedBy{it.first}
-        
+
         var i = 0
         var j = sNums.size-1
         var sum = 0
@@ -21,7 +21,7 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
                 j--
             }
         }
-        
+
         return intArrayOf(0,0)
-    }
+}
 ```
