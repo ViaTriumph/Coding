@@ -21,5 +21,5 @@ fun isPalindrome(s: String): Boolean {
         }
         
         return true
-    }
+}
 ```
