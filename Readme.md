@@ -7,6 +7,15 @@
 | [Two Sum](https://leetcode.com/problems/two-sum/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/two_sum.md)     | O(n)    | O(n)    |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/valid_anagram.md)     | O(n)    | O(1)    |
 
+### Medium
+| Question | Solution | Time complexity | Space complexity |
+| ---      |   ---    |      ---        |       ---        |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/longest-consecutive-sequence.md)     | O(nlog(n))    | O(n)    |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/group-anagrams.md)     | O(n)    | O(n)    |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/top-k-frequent-elements.md)     | O(nlog(n))    | O(n)    |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/product-of-array-except-self.md)     | O(n)    | O(1)    |
+| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Arrays/valid-sudoku.md)     | O(n)    | O(1)    |
+
 ## Binary Search
 
 ### Easy
