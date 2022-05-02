@@ -62,7 +62,7 @@
 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/longest-increasing-subsequence.md)     | O(nlog(n))    | O(n)    |
 | [Unique Paths](https://leetcode.com/problems/unique-paths/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/unique-paths.md)     | O(n • m)    | O(n • m)    |
 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/longest-common-subsequence.md)     | O(len(text1) • len(text2))    | O(len(text1) • len(text2))    |
-| [Coin Change 2](https://leetcode.com/problems/coin-change-2/)   | [Solution]https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/coin-change-2.md)     | O(n • amount)    | O(n • amount)    |
+| [Coin Change 2](https://leetcode.com/problems/coin-change-2/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/coin-change-2.md)     | O(n • amount)    | O(n • amount)    |
 | [Target Sum](https://leetcode.com/problems/target-sum/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/target-sum.md)     | O(n • count)    | O(n • count)    |
 
 # Greedy
