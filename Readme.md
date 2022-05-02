@@ -37,6 +37,11 @@
 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Bit%20manipulation/reverse-bits.md)     | O(log(num))    | O(1)    |
 | [Single Number](https://leetcode.com/problems/single-number/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Bit%20manipulation/single-number.md)     | O(n)    | O(1)    |
 
+### Medium
+| Question | Solution | Time complexity | Space complexity |
+| ---      |   ---    |      ---        |       ---        |
+| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Bit%20manipulation/sum-of-two-integers.md)     | O(log(n))    | O(1)    |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Bit%20manipulation/reverse-integer.md)     | O(log(n))    | O(1)    |
 
 # Dynamic Programming
 ### Easy
@@ -44,6 +49,21 @@
 | ---      |   ---    |      ---        |       ---        |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/climbing-stairs.md)     | O(n)    | O(n)    |
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/min-cost-climbing-stairs.md)     | O(n)    | O(n)    |
+
+### Medium
+| Question | Solution | Time complexity | Space complexity |
+| ---      |   ---    |      ---        |       ---        |
+| [House Robber](https://leetcode.com/problems/house-robber/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/house-robber.md)     | O(n)    | O(n)    |
+| [House Robber II](https://leetcode.com/problems/house-robber-ii/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/house-robber-ii.md)     | O(n)    | O(n)    |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/longest-palindromic-substring.md)     | O(len(s))    | O(len(s))    |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/palindromic-substrings.md)     | O(len(s))    | O(len(s))    |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/decode-ways.md)     | O(len(s))    | O(len(s))    |
+| [Coin Change](https://leetcode.com/problems/coin-change/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/coin-change.md)     | O(n • amount)    | O(n)    |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/longest-increasing-subsequence.md)     | O(nlog(n))    | O(n)    |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/unique-paths.md)     | O(n • m)    | O(n • m)    |
+| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/longest-common-subsequence.md)     | O(len(text1) • len(text2))    | O(len(text1) • len(text2))    |
+| [Coin Change 2](https://leetcode.com/problems/coin-change-2/)   | [Solution]https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/coin-change-2.md)     | O(n • amount)    | O(n • amount)    |
+| [Target Sum](https://leetcode.com/problems/target-sum/)   | [Solution](https://github.com/ViaTriumph/Coding/blob/main/Dynamic%20programming/target-sum.md)     | O(n • count)    | O(n • count)    |
 
 # Greedy
 ### Easy
